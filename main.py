@@ -3,11 +3,10 @@ Ermano Buikis
 
 Trading Algorithm Tool for backtesting and generating equation
 
+https://github.com/ErmanoBuikis/Katana-tool/tree/master
 
 """
-
-
-# External libraries
+# __________External libraries__________
 import os
 import sys
 
@@ -28,7 +27,7 @@ import multiprocessing as mp
 import time
 from timing_test import timing
 
-# Project modules
+# __________ Project modules__________
 from variables import *
 
 from finance_indexes import CCI,RSI,ROC,SMA,SMI,MACD,EMA,SMA_numba
@@ -47,6 +46,9 @@ from generate_strategy import *
 from buy_live_strategy import buy_live_strategy
 
 from genetic_algorithm import mutate_equations,cross_over,select
+
+
+
 
 def fix_empty_structure(bots_):
     "fix possible empty structure"
