@@ -48,8 +48,6 @@ from buy_live_strategy import buy_live_strategy
 from genetic_algorithm import mutate_equations,cross_over,select
 
 
-
-
 def fix_empty_structure(bots_):
     "fix possible empty structure"
     for n_bot in range(len(bots_)): 
