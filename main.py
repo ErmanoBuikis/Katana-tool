@@ -1,5 +1,10 @@
-# Ermano Buikis
+"""
+Ermano Buikis
 
+Trading Algorithm Tool for backtesting and generating equation
+
+
+"""
 
 
 # External libraries
